@@ -25,7 +25,7 @@ class TestDemo(unittest.TestCase):
        # browser.implicitly_wait(10)
       #  new_todo_input = browser.find_element_by_class_name('new-todo')
        # percy_snapshot(browser, 'Empty Todo State')
-        #percy_snapshot(driver, 'snapshot1');
+        percy_snapshot(driver, 'snapshot1');
         percy_snapshot(driver, 'snapshot2');
         percy_snapshot(
         driver=driver, 
